@@ -7,7 +7,8 @@ Book a Course (Form HTML)
 3. [Course registration page]
 4. [Registration confirmation page]
 5. [Validation process/JavaScript]
-6. [Miscellaneous]
+6. [Continue...]
+7. [Contact]
 
 ## Short descritption of the project
 
@@ -31,6 +32,10 @@ Display of the submitted data after a validation process.
 
 JavaScript is used as an external file for the validation process. The validation is done as far as possible via functions.
 
-## Miscellaneous
+## Continue
+
+
+
+## Contact
 
 For questions or suggestions please contact me.
