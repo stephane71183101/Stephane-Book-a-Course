@@ -13,6 +13,10 @@ Book a Course (Form HTML)
 
 This file describes difficulties and approaches to solutions in the course of the development of the project.
 
+For more information about the project, please check the readme.md file.
+
+Prôject delivery date: 03.03.2022, 15:30
+
 ## Starting point of the problem
 
 Validation was first created for text fields using functions, with arrays among others.
@@ -23,7 +27,7 @@ The later incorporation of validation of other fields (select, radio) became dif
 
 ## Solution approach
 
-The order in the process remains unresolved until now (03.03.2022/15:30). The form is still being developed after the project delivery until a solution is found.
+The order in the process remains unresolved until now (03.03.2022, 15:30). The form is still being developed after the project delivery until a solution is found.
 
 Solution approach as follows:
 > Go back to a simple validation process
