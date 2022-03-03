@@ -1,5 +1,5 @@
 function validationTextFunction() {
-    if (!validateRequiredList(["firstName", "lastName", "address", "zip", "city", "email", "phone", "skypeZoomUserName", "languageChoice", "languageChoiceReason", "trialLessonDate", "messageLanguageKnowledge"])) return false;
+    if (!validateRequiredList(["firstName", "lastName", "address", "zip", "city", "email", "phone", "skypeZoomUserName", "languageChoiceReason", "messageLanguageKnowledge"])) return false;
 }
 
 function validateRequiredList(inputIDs) {
