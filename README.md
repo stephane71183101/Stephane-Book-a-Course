@@ -16,6 +16,8 @@ Creation of a pseudo-site (language school) with 3 pages: course description, co
 
 It is about a small project that is realized alone.
 
+Delivery date: 03.03.2022, 15:30
+
 ## Course description page
 
 Inclusion of a link to the course registration page (button).
