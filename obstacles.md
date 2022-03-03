@@ -7,6 +7,7 @@ Book a Course (Form HTML)
 3. [Difficulties with validation of non-text fields]
 4. [Solution approach]
 5. [Continue...]
+6. [Contact]
 
 ## About this file
 
@@ -32,3 +33,7 @@ Solution approach as follows:
 ## Continue...
 
 The unresolved parts remain in the code as comments. And as described above the project will be developed further after delivery.
+
+## Contact
+
+For questions or suggestions please contact me.
