@@ -34,7 +34,7 @@ JavaScript is used as an external file for the validation process. The validatio
 
 ## Continue
 
-
+The unresolved parts remain in the code as comments. The project will be developed further after delivery.
 
 ## Contact
 
