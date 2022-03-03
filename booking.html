@@ -39,16 +39,23 @@
             <h4>Kursanmeldung</h4>
             <p>Melden Sie sich jetzt für Ihren gewünschten Sprachkurs an. Sie profitieren dabei von einer Gratis-Probelektion (45 Min.).</p>
           </div>
-          <form action="result.html" onsubmit="return myFunction()">
-            <!--<div class="mb-3">
-              <label for="salutation" class="form-label">Anrede</label>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="salutation" id="salutation1"> <label class="form-check-label" for="salutation1">Frau</label>
+          <form action="result.html" onsubmit="return validationTextFunction()">
+            
+            <!-- Radio Button > Field salutation -->
+            <!--
+            <div class="mb-3">
+                <label class="form-label" for="salutation">Anrede</label>
+              <div class="form-check form-check">
+                <input class="form-check-input" type="radio" id="button1" name="salutation" value="madam">
+                <label class="form-check-label" for="button1">Frau</label>
+                </div>
+              <div class="form-check form-check">
+                <input class="form-check-input" type="radio" id="button2" name="salutation" value="mister"> 
+                <label class="form-check-label" for="button2">Herr</label>
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="salutation" id="salutation2" checked> <label class="form-check-label" for="salutation2">Herr</label>
-              </div>
-            </div>-->
+            </div>
+            -->
+
             <div class="mb-3">
               <label for="firstName" class="form-label">Name</label> <input type="text" class="form-control form-control-sm" placeholder="Vorname" id="firstName" name="firstName"> <input type="text" class="form-control form-control-sm" placeholder="Nachname" id="lastName" name="lastName">
             </div>
@@ -62,24 +69,30 @@
               <label for="city" class="form-label">Wohnort</label> <input type="text" class="form-control form-control-sm" placeholder="" id="city" name="city">
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">E-Mail</label> <input type="text" class="form-control form-control-sm" placeholder="email@domaine.ch" id="email" name="email">
+              <label for="email" class="form-label">E-Mail</label> <input type="email" class="form-control form-control-sm" placeholder="email@domaine.ch" id="email" name="email">
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Telefon</label> <input type="text" class="form-control form-control-sm" placeholder="0041 76 123 45 67" id="phone" name="phone">
             </div>
-            <!--<div class="mb-3">
-              <label for="trialLessonSkypeZoom" class="form-label">Möchte Sie die Probelektion über Skype oder Zoom?</label>
+
+            <!-- Radio Button > Field Trial lesson Skype or Zoom -->
+            <!--
+            <div class="mb-3">
+              <label for="trialLessonSkypeZoom" class="form-label">Möchten Sie die Probelektion über Skype oder Zoom?</label>
               <div class="form-check form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> <label class="form-check-label" for="flexRadioDefault1">Skype</label>
               </div>
               <div class="form-check form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked> <label class="form-check-label" for="flexRadioDefault2">Zoom</label>
               </div>
-            </div>-->
+            </div>
+            -->
+
             <div class="mb-3">
               <label for="skypeZoomUserName" class="form-label">Benutzername</label> <input type="text" class="form-control form-control-sm" placeholder="" id="skypeZoomUserName" name="skypeZoomUserName">
             </div>
-            <!--<div class="mb-3">
+                        
+            <div class="mb-3">
               <label for="languageChoice" class="form-label">Welche Sprache möchten Sie lernen?</label> <select class="form-select" aria-label="Default select example">
                 <option selected>
                   Sprache auswählen
@@ -106,7 +119,18 @@
                   Russisch
                 </option>
               </select>
-            </div>-->
+            </div>
+
+            <!-- Selected field > Chris's Exmaple */ -->
+            <!--
+             <select id="my-selection" class="form-select" aria-label="Default select example">
+               <option value="default" selected></option>
+               <option value="1">One</option>
+               <option value="2">Two</option>
+               <option value="3">Three</option>
+             </select>
+            -->
+
             <div class="mb-3">
               <label for="languageChoiceReason" class="form-label">Weshalb möchte Sie diese Sprache lernen?</label> <input type="text" class="form-control form-control-sm" placeholder="Diplom/Beruf/Reisen..." id="languageChoiceReason" name="languageChoiceReason">
             </div>
@@ -135,12 +159,12 @@
                 </option>
               </select>
             </div>-->
-            <label for="trialLessonDate" class="form-label">Geben Sie uns einen Wunschtermin für Ihre Probelektion an.</label>
+            <!--<label for="trialLessonDate" class="form-label">Geben Sie uns einen Wunschtermin für Ihre Probelektion an.</label>
             <div class="mb-3">
               <div class="input-group date" id="trialLessonDate">
                 <input type="datetime-local" class="form-control" id="trialLessonDate">
               </div>
-            </div>
+            </div>-->
             <div class="mb-3">
               <label for="messageLanguageKnowledge" class="form-label">Teilen Sie uns noch mehr über Ihr Sprachwissen mit. Worauf möchten Sie sich fokussieren? Je mehr wir wissen, desto besser können wir uns auf Sie vorbereiten.</label> 
               <textarea class="form-control form-control-sm" placeholder="Ich möchte diese Sprache lernen, weil..." id="messageLanguageKnowledge" name="messageLanguageKnowledge" max="600"></textarea>

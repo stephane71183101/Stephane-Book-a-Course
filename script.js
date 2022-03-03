@@ -1,5 +1,5 @@
-function myFunction() {
-    if (!validateRequiredList(["firstName", "lastName", "address", "zip", "city", "email", "phone", "skypeZoomUserName", "languageChoiceReason", "trialLessonDate", "messageLanguageKnowledge"])) return false;
+function validationTextFunction() {
+    if (!validateRequiredList(["firstName", "lastName", "address", "zip", "city", "email", "phone", "skypeZoomUserName", "languageChoice", "languageChoiceReason", "trialLessonDate", "messageLanguageKnowledge"])) return false;
 }
 
 function validateRequiredList(inputIDs) {
@@ -15,8 +15,38 @@ function validateRequiredList(inputIDs) {
 function validateRequired(inputID) {
   let value = document.getElementById(inputID).value;
   if(!value) {
-    alert(`Bitte fülle da Feld "${inputID}" aus.`);
+    alert(`Bitte füllen Sie das Feld "${inputID}" aus.`);
     return false;
   }
   return true;
 }
+
+ function validate(inputID) {
+  let valLanguageChoice = document.getElementById("languageChoice").selectedOptions[0].value;
+  if (valLanguageChoice === "default") {
+      alert("Bitte wähle Sie eine Sprache aus.");
+      return false;
+  }
+ }
+
+ /* Selected field > Chris's Exmaple */
+ /*
+function validate() {
+        let valSelect = document.getElementById("my-selection").selectedOptions[0].value;
+        if (valSelect === "default") {
+            alert("Bitte wähle eine Option aus.");
+            return false;
+        }
+    >
+  */
+
+/*
+ function validationRadioButtonSalutation(inputID) {
+  let female = document.getElementById(`madam`).checked;
+  let male = document.getElementById(`mister`).checked;
+  if (!female && !male) {
+    alert(`Bitte selektieren Sie eine Anrede.`);
+  }
+  return false;
+ }
+ */
